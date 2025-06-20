@@ -1,0 +1,76 @@
+<!-- EMPTY CART -->
+<ng-container *ngIf="products.length==0">
+    <div class="center">
+        <h4>Your cart is empty!</h4>
+        <h6>Add item to it now!</h6>
+        <button routerLink="/navbar2" class="btn btn-outline-danger"
+            style="background-color: rgb(184, 74, 169); color: azure; border-radius: 20px;"> shop now</button>
+    </div>
+</ng-container>
+
+
+<!-- CART WITH ITEMS -->
+<ng-container *ngIf="products.length!=0">
+    <div class="container">
+        <div class="card-table">
+            <div class="card-product">
+                <table class="table table-responsive">
+                    <thead>
+                        <tr>
+                            <th>Sl:No</th>
+                            <th>Product Name</th>
+                            <th>Product Image</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tr *ngFor="let item of products; let i=index" style="text-align: center;">
+                        <td>{{i+1}}</td>
+                        <td>{{item.title}}</td>
+                        <td><img style="width: 100px;" src="{{item.image}}" alt=""></td>
+                        <td style="width: 25%;">{{item.description}}</td>
+                        <td style="width: 12%;">${{item.price}}</td>
+
+                        <td style="width: 12%;">
+                            <div style="display: flex; justify-content: center; align-items: center; gap: 8px;">
+                        <td>
+                            <div class="quantity-controls">
+                                <button class="btn btn-sm fw-bolder" style="color: white; background-color: blueviolet;" (click)="decreaseQuantity(item)">-</button>
+                                <span>{{item.quantity}}</span>
+                                <button class="btn btn-sm fw-bolder" style="color: white; background-color: blueviolet;" (click)="increaseQuantity(item)">+</button>
+                            </div>
+                        </td>
+            </div>
+            </td>
+
+            <td style="width: 12%;">${{item.total}}</td>
+            <td><button (click)="removeItem(item)" class="btn btn-outline-light"><i style="color: blueviolet;"
+                        class="fas fa-trash"></i></button></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+                <td><button (click)="emptyCart()" class="btn btn-outline-danger mt-3"
+                        style="font-weight: 400; background-color: rgb(184, 74, 169); color: azure; border-radius: 20px;">Empty
+                        Cart</button></td>
+                <td><button class="btn btn-outline-danger mt-3"
+                        style="background-color: rgb(184, 74, 169); color: azure; border-radius: 20px;"
+                        routerLink="/navbar2">Shop more</button></td>
+                <td><button (click)="saveCartToDB()" class="btn btn-outline-danger mt-3"
+                        style="background-color: rgb(184, 74, 169); color: azure; border-radius: 20px;">CheckOut</button>
+                </td>
+                <td class="fw-bold">Grand Total:${{grandtotal}}</td>
+            </tr>
+            </table>
+        </div>
+
+    </div>
+    </div>
+</ng-container>

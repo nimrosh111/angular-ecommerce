@@ -1,0 +1,32 @@
+<div class="container mt-4">
+    <h3>Order Summary</h3>
+    <table class="table table-bordered mt-3">
+      <thead style="background-color: rgb(173, 77, 157);">
+        <tr>
+          <th>Product Name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody style="background-color: rgb(206, 156, 197);">
+        <tr *ngFor="let item of products">
+          <td>{{item.title}}</td>
+          <td>${{item.price}}</td>
+          <td>{{item.quantity}}</td>
+          <td>${{item.total}}</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3" class="text-end fw-bold">Grand Total:</td>
+          <td class="fw-bold">${{grandTotal}}</td>
+        </tr>
+      </tfoot>
+    </table>
+  
+    <div class="text-end">
+      <button style="background-color: rgb(95, 15, 82); color: antiquewhite; " class="btn" (click)="buyNow()">Buy Now</button>
+    </div>
+  </div>
+  

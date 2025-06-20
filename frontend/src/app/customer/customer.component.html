@@ -1,0 +1,114 @@
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-12 col-lg-9 col-xl-7">
+          <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+            <div class="card-body p-4 p-md-5">
+              <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Welcome, {{ customerName | titlecase }}! </h3>
+              <form [formGroup]="Customerfg" (ngSubmit)="onSubmit()">
+  
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+  
+                    <div data-mdb-input-init class="form-outline">
+                      <input type="text" id="firstName" formControlName="name" class="form-control form-control-lg" />
+                      <label class="form-label" for="firstName"> Name</label>
+
+                      <div style="color: red;" *ngIf="Customerfg.get('name')?.hasError('required') && Customerfg.get('name')?.touched"
+                      >
+                        Name required
+                      </div>
+                      
+
+                    </div>
+  
+                  </div>
+                  <div class="col-md-6 mb-4">
+  
+                    <div data-mdb-input-init class="form-outline">
+                      <input type="text" formControlName="email" id="lastName" class="form-control form-control-lg" />
+                      <label class="form-label" for="lastName">Email</label>
+
+                   
+                      <div style="color: red;" *ngIf="Customerfg.get('email')?.hasError('email') && Customerfg.get('email')?.touched">
+                        Email must be in correct format
+                      </div>
+                      
+                    </div>
+  
+                  </div>
+                </div>
+  
+                
+  
+                <div class="row">
+                  <div class="col-md-6 mb-4 pb-2">
+  
+                    <div data-mdb-input-init class="form-outline">
+                      <input type="text" formControlName="username" id="emailAddress" class="form-control form-control-lg" />
+                      <label class="form-label" for="emailAddress">UserName</label>
+
+                      <div style="color: red;" *ngIf="Customerfg.get('username')?.hasError('required') && Customerfg.get('username')?.touched">
+                        UserName required
+                      </div>
+                    </div>
+  
+                  </div>
+
+                  <input type="hidden" formControlName="identityUserId" />
+
+                  <div class="col-md-6 mb-4 pb-2">
+  
+                    <div data-mdb-input-init class="form-outline">
+                      <input type="tel" id="phoneNumber" formControlName="phone" class="form-control form-control-lg" />
+                      <label class="form-label" for="phoneNumber">Mobile Number</label>
+
+                      
+                      <div style="color: red;" *ngIf="Customerfg.get('phone')?.hasError('pattern') && Customerfg.get('phone')?.touched">
+                       Mobile No: must be 10 digits
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+  
+                
+                <div class="row">
+                    <div class="col-md-6 mb-4 pb-2">
+    
+                      <div data-mdb-input-init class="form-outline">
+                        <input type="string" formControlName="age" id="emailAddress" class="form-control form-control-lg" />
+                        <label class="form-label" for="emailAddress">Age</label>
+                      </div>
+    
+                    
+                    </div>
+                    <div class="col-md-6 mb-4 pb-2">
+    
+                      <!-- <div data-mdb-input-init class="form-outline">
+                        <input type="tel" formControlName="password" id="phoneNumber" class="form-control form-control-lg" />
+                        <label class="form-label" for="phoneNumber">Password</label>
+
+                        <div style="color: red;" *ngIf="Customerfg.get('password')?.hasError('required') && Customerfg.get('password').touched">
+                          Password required
+                        </div>
+                      </div> -->
+    
+                    </div>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary" [disabled]="Customerfg.invalid || isSubmitting">
+                    {{ isSubmitting ? 'Saving...' : 'Submit' }}
+                  </button>
+                  <p>Submitting? {{ isSubmitting }}</p>
+
+                  
+  
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+

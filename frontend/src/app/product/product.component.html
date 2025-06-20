@@ -1,0 +1,25 @@
+<div class="container" style="background-color: rgb(199, 165, 194);">
+    <div class="row g-3">
+      <ng-container *ngFor="let item of filteredProducts">
+        <div class="col-md-3 d-flex"> <!-- 4 cards per row -->
+          <div class="card flex-fill text-center">
+            <img [src]="item.image" alt="" class="card-img">
+            <h5 class="text-truncate">{{ item.title }}</h5>
+            <p class="text-truncate">{{ item.description }}</p>
+            <p><strong>Price:</strong> ${{ item.price }}</p>
+            <div style="display: flex; gap: 10px; justify-content: center;">
+              <button (click)="addToCart(item)" class="btn btn-outline-danger"
+                style="background-color: rgb(184, 74, 169); color: azure; border-radius: 10px;">
+                Add to cart
+              </button>
+              <button (click)="addToWishlist(item)" class="btn btn-outline-danger"
+                style="background-color: rgb(184, 74, 169); color: azure; border-radius: 20px;">
+                <i class="fas fa-heart fs-4"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+  

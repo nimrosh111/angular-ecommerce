@@ -1,0 +1,49 @@
+.center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+
+}
+
+h4,h6{
+    font-weight: 600;
+}
+
+.card-table{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    min-width: none;
+    word-wrap: break-word;
+    background-color: rgb(233, 213, 231);
+    background-repeat: space;
+    background-clip: border-box;
+    border: 1px solid black;
+    border-radius: .25rem;
+}
+
+.quantity-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  
+
+.center .btn{
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 400;
+    padding: 12px 72px;
+    border-radius: 3px;
+}
+tr {
+    border-bottom: 1px solid #ccc; /* border line for each row */
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }

@@ -1,0 +1,81 @@
+<div class="container mt-4">
+    <h2>Admin Dashboard</h2>
+  
+    <div class="mb-3">
+      <button style="background-color: blueviolet; color:  white;" class="btn me-2" (click)="showSection('customer')">Customer</button>
+      <button class="btn btn-secondary" routerLink="/adminproduct">Product</button>
+    </div>
+  
+    <!-- Customer Table -->
+    <div *ngIf="activeSection === 'customer'">
+      <h4>Customer Details</h4>
+      <table  style="background-color: rgb(206, 155, 197);" class="table table-bordered table-striped">
+        <thead style="background-color: rgb(128, 84, 120); color: white;">
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Username</th>
+            <th>Phone</th>
+            <th>Age</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let customer of customers">
+            <td>{{ customer.id }}</td>
+            <td>{{ customer.name }}</td>
+            <td>{{ customer.email }}</td>
+            <td>{{ customer.username }}</td>
+            <td>{{ customer.phone }}</td>
+            <td>{{ customer.age }}</td>
+            <td>
+              <button style="background-color: blueviolet; color: white;" class="btn btn-sm me-1" (click)="openModal(customer)">Edit</button>
+              <button class="btn btn-sm btn-danger" (click)="deleteCustomer(customer.id)">Delete</button>
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+    <!-- Placeholder for Product Section -->
+    <div *ngIf="activeSection === 'product'" >
+      <h4>Product Section Coming Soon...</h4>
+    </div>
+  
+    <!-- Modal -->
+    <div *ngIf="showModal" class="custom-modal-backdrop">
+      <div class="custom-modal">
+        <h5>Edit Customer</h5>
+        <form (ngSubmit)="saveCustomer()">
+          <div class="mb-2">
+            <label>Name</label>
+            <input type="text" [(ngModel)]="selectedCustomer.name" name="name" class="form-control" required>
+          </div>
+          <div class="mb-2">
+            <label>Email</label>
+            <input type="email" [(ngModel)]="selectedCustomer.email" name="email" class="form-control" required>
+          </div>
+          <div class="mb-2">
+            <label>Username</label>
+            <input type="text" [(ngModel)]="selectedCustomer.username" name="username" class="form-control">
+          </div>
+          <div class="mb-2">
+            <label>Phone</label>
+            <input type="text" [(ngModel)]="selectedCustomer.phone" name="phone" class="form-control">
+          </div>
+          <div class="mb-2">
+            <label>Age</label>
+            <input type="text" [(ngModel)]="selectedCustomer.age" name="age" class="form-control">
+          </div>
+  
+          <div class="text-end mt-3">
+            <button type="button" class="btn btn-secondary me-2" (click)="closeModal()">Cancel</button>
+            <button type="submit" class="btn btn-success">Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  
