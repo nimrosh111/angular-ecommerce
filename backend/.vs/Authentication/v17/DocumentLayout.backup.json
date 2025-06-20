@@ -1,0 +1,513 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\NimC#\\Authentication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\NimC#\\Authentication\\Migrations\\20250605051052_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250605051052_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\dtos\\fakestoreproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:dtos\\fakestoreproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\dtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:dtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\db\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:db\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\authentication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:authentication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\models\\updatequantity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:models\\updatequantity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\controllers\\ordersummarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:controllers\\ordersummarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\NimC#\\Authentication\\Migrations\\20250521050541_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250521050541_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\dtos\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:dtos\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\dtos\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:dtos\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\services\\productfetcherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:services\\productfetcherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|c:\\users\\nimc#\\authentication\\models\\wishlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01367256-88A2-4B46-A92C-361904B318D1}|Authentication.csproj|solutionrelative:models\\wishlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 22,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250605051052_initial.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Migrations\\20250605051052_initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250605051052_initial.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Migrations\\20250605051052_initial.cs",
+              "RelativeToolTip": "Migrations\\20250605051052_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T05:10:53.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FakeStoreProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Dtos\\FakeStoreProductDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\FakeStoreProductDto.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Dtos\\FakeStoreProductDto.cs",
+              "RelativeToolTip": "Dtos\\FakeStoreProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T04:54:28.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Dtos\\ProductCreateDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ProductCreateDto.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Dtos\\ProductCreateDto.cs",
+              "RelativeToolTip": "Dtos\\ProductCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T12:38:42.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Authentication",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Authentication.csproj",
+              "RelativeDocumentMoniker": "Authentication.csproj",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Authentication.csproj",
+              "RelativeToolTip": "Authentication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-27T07:10:48.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdateQuantity.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Models\\UpdateQuantity.cs",
+              "RelativeDocumentMoniker": "Models\\UpdateQuantity.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Models\\UpdateQuantity.cs",
+              "RelativeToolTip": "Models\\UpdateQuantity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:27:51.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderSummaryController.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Controllers\\OrderSummaryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderSummaryController.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Controllers\\OrderSummaryController.cs",
+              "RelativeToolTip": "Controllers\\OrderSummaryController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA1wCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T04:43:41.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T04:43:12.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250521050541_initial.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Migrations\\20250521050541_initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250521050541_initial.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Migrations\\20250521050541_initial.cs",
+              "RelativeToolTip": "Migrations\\20250521050541_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T05:05:41.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Models\\CartItem.cs",
+              "RelativeToolTip": "Models\\CartItem.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T12:26:16.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T06:14:01.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProductFetcherService.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Services\\ProductFetcherService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductFetcherService.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Services\\ProductFetcherService.cs",
+              "RelativeToolTip": "Services\\ProductFetcherService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIA3wAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T11:04:43.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Services\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "Services\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Services\\IAuthenticationService.cs",
+              "RelativeToolTip": "Services\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T11:04:01.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CartItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Dtos\\CartItemDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\CartItemDto.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Dtos\\CartItemDto.cs",
+              "RelativeToolTip": "Dtos\\CartItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T11:02:10.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAqwJUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:39:18.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\User.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Entities\\User.cs",
+              "RelativeToolTip": "Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:39:11.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Dtos\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "Dtos\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Dtos\\RegisterRequest.cs",
+              "RelativeToolTip": "Dtos\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T07:08:23.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Dtos\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "Dtos\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Dtos\\LoginResponse.cs",
+              "RelativeToolTip": "Dtos\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T07:05:01.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "Services\\AuthenticationService.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAQwIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T06:17:27.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Dtos\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Dtos\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Dtos\\LoginRequest.cs",
+              "RelativeToolTip": "Dtos\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T06:56:00.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T06:41:55.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ResetPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Dtos\\ResetPasswordRequest.cs",
+              "RelativeDocumentMoniker": "Dtos\\ResetPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Dtos\\ResetPasswordRequest.cs",
+              "RelativeToolTip": "Dtos\\ResetPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T06:24:11.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ForgotPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Dtos\\ForgotPasswordRequest.cs",
+              "RelativeDocumentMoniker": "Dtos\\ForgotPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Dtos\\ForgotPasswordRequest.cs",
+              "RelativeToolTip": "Dtos\\ForgotPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T06:23:23.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA8wBMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T06:22:33.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthenticateController.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Controllers\\AuthenticateController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthenticateController.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Controllers\\AuthenticateController.cs",
+              "RelativeToolTip": "Controllers\\AuthenticateController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:25:36.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "WishlistController.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Controllers\\WishlistController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WishlistController.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Controllers\\WishlistController.cs",
+              "RelativeToolTip": "Controllers\\WishlistController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAtwCsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T04:31:13.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Db\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Db\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Db\\AppDbContext.cs",
+              "RelativeToolTip": "Db\\AppDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAawBgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T04:29:24.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "WishListItem.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Models\\WishListItem.cs",
+              "RelativeDocumentMoniker": "Models\\WishListItem.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Models\\WishListItem.cs",
+              "RelativeToolTip": "Models\\WishListItem.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T04:28:36.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAowKQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T04:24:05.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\NimC#\\Authentication\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\NimC#\\Authentication\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAiwIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T11:51:38.423Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
