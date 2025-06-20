@@ -1,0 +1,12 @@
+# Frontend (Angular)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Backend (.NET)
+backend/bin/
+backend/obj/
+backend/.vs/
+backend/*.user
+backend/*.suo
+backend/.env
